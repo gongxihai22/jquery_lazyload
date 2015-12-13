@@ -50,7 +50,7 @@
                         counter = 0;
                 } else {
                     if (++counter > settings.failure_limit) {
-                        return false;
+                        return;
                     }
                 }
             });
